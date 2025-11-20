@@ -1,0 +1,94 @@
+# ============================================
+# INSTALLATION GUIDE
+# ============================================
+# For GPU-enabled training (CUDA 12.x):
+#   Install PyTorch with CUDA support from: https://pytorch.org/get-started/locally/
+#   Example: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+#
+# For CPU-only training or school servers without GPU:
+#   Install CPU version: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   Note: Training will be significantly slower on CPU
+#
+# Then install remaining dependencies: pip install -r requirement.txt
+
+# ============================================
+# Core Data Science & Visualization
+# ============================================
+numpy>=2.2.0
+pandas>=2.3.0
+matplotlib>=3.10.0
+seaborn>=0.13.0
+polars>=1.35.0
+
+# ============================================
+# Computer Vision & Image Processing
+# ============================================
+opencv-python>=4.12.0
+pillow>=12.0.0
+
+# ============================================
+# Machine Learning & Deep Learning
+# ============================================
+scikit-learn>=1.7.0
+scipy>=1.16.0
+joblib>=1.5.0
+
+# ============================================
+# PyTorch Deep Learning Framework
+# ============================================
+# IMPORTANT: Install PyTorch separately first (see installation guide above)
+# torch>=2.9.0
+# torchvision>=0.24.0
+# triton>=3.5.0  # Required for GPU optimization (Linux/WSL only)
+
+# ============================================
+# Object Detection (YOLOv11)
+# ============================================
+ultralytics>=8.3.0
+ultralytics-thop>=2.0.0
+
+# ============================================
+# Utilities & Progress Tracking
+# ============================================
+tqdm>=4.67.0
+PyYAML>=6.0.0
+requests>=2.32.0
+urllib3>=2.5.0
+certifi>=2025.10.0
+
+# ============================================
+# Jupyter Notebook Support
+# ============================================
+ipykernel>=7.1.0
+ipython>=9.6.0
+ipywidgets>=8.1.0
+jupyter-client>=8.6.0
+jupyter-core>=5.9.0
+jupyterlab-widgets>=3.0.0
+notebook>=7.0.0
+
+# Additional Jupyter utilities
+ipython-pygments-lexers>=1.1.0
+matplotlib-inline>=0.2.0
+nest-asyncio>=1.6.0
+
+# ============================================
+# System & File Management
+# ============================================
+filelock>=3.20.0
+fsspec>=2025.10.0
+psutil>=7.1.0
+platformdirs>=4.5.0
+
+# ============================================
+# Symbolic Math & Neural Networks
+# ============================================
+sympy>=1.14.0
+networkx>=3.5.0
+mpmath>=1.3.0
+
+# ============================================
+# Development & Debugging
+# ============================================
+debugpy>=1.8.0
+setuptools>=80.9.0
